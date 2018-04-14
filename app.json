@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/map/map"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/weather_gray.png",
+        "selectedIconPath": "images/weather.png",
+        "text": "天气"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "images/map_gray.png",
+        "selectedIconPath": "images/map.png",
+        "text": "地图"
+      }
+    ]
+  }
+}
